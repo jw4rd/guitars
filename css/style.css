@@ -1,0 +1,125 @@
+body {
+	width: 100%;
+	background-color:#eee;
+	overflow-x: hidden;
+}
+
+
+.photo{
+	padding: 0px;
+	width:auto;
+	height:136px;
+	border-radius: 15px;
+	box-shadow: 0 0 1px black;
+}
+
+.photo:hover {
+   box-shadow: 0 0 2px blue;
+}
+
+.img{
+	padding: 8px;
+	width:auto;
+	left:10px;
+	height:120px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #777;
+	border-radius: 15px;
+}
+
+
+.img:hover{
+	background:#fff;
+}
+
+.icon{
+	position: relative;
+	top:30px;
+	width:164px;
+	height:164px;
+	display:inline-block;
+	text-align: center;
+	font-family: arial;
+	font-size:12px;
+	color:#000;
+}
+
+.icon:hover{
+	color:#0033cc;
+}
+
+#about{
+	display:none;
+	position: absolute;
+	left: 18px;
+	top: 38px;
+	width: 270px;
+	background: rgba(0, 0, 0, 0.80);
+	padding: 20px;
+	border-radius: 15px;
+	border: none;
+	color: #eee;
+	font-size: 15px;
+	font-family: arial;
+	z-index:1;
+}
+
+#about-link{
+	position: absolute;
+	left: 30px;
+	color:#0000ff;
+	font-family:arial;
+	font-size:16px;
+	font-weight:bold;
+}
+
+#about-link:hover{
+	color:#0000aa;
+}
+
+#close-button{
+	border: solid 1px #000;
+	overflow: hidden;
+	background: rgba(0, 0, 0, 0.75);
+	border-radius: 5px;
+	font-size: 15px;
+	color:#aaa;
+}
+
+#close-button:hover{
+	color:#fff;
+}
+
+#contact:hover{
+	text-decoration:none;
+}
+
+a {
+	color: #c8e0ff;
+	text-decoration: none;
+}
+a:hover {
+    color: greenyellow;
+}
+
+.description{
+	position:absolute;
+	display:none;
+	width:154px;
+	top:158px;
+	text-align: center;
+	font-family: arial;
+	font-size:13px;
+	color:#eee;
+	padding:0px;
+	z-index:1;
+	border-radius:10px;
+}
+
+.icon:hover > .description{
+	display:block;
+	background:rgba(0,0,0,0.8);
+	padding:5px;
+	
+}
